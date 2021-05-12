@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "build": "npm run build",
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +18,6 @@
     "mongoose": "^5.12.8",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "engines": {"node":"14.16.1", "npm":"6.14.1"}
 }
