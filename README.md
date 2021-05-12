@@ -22,8 +22,3 @@ The get route = localhost:5000/user
 The post route = localhost:5000/user
 Delete route = localhost:5000/user/generated Id of user from post result
 
-<<<<<<< HEAD
-heroku app name = uc-node-crude-app
-=======
-heroku app name = https://git.heroku.com/uc-node-crude-app.git
->>>>>>> e75a4807fe65bdca363228694d4e05c97fbac3b2
