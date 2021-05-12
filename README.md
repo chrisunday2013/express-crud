@@ -17,3 +17,5 @@ app to listen on a specific port.
 The get route = localhost:5000/user
 The post route = localhost:5000/user
 Delete route = localhost:5000/user/generated Id of user from post result
+
+heroku app name = uc-node-crude-app
