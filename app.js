@@ -7,7 +7,8 @@ const mongoose = require("mongoose")
 
 
 mongoose.connect(
-  "mongodb+srv://chrisunday2013:picnic2013@cluster0.a9gdr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
+  process.env.DB_CONNECTION_STRING ,
+  {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
